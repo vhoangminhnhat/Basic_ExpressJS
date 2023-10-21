@@ -1,0 +1,17 @@
+//Trong scss, có một cách để liệt kê các biến tự đặt cho các thuộc tính css, bằng cách tạo một file có tên _variables.scss, sau đó import vào trong file scss cần gọi biến như sau:
+//@import 'variables'
+@import 'variables';
+
+.body{
+    display: flex;
+    flex-direction: row;
+}
+
+.letters{
+    font-size: 30;
+    width: 100%;
+}
+
+h1{
+    color: $red-color;
+}

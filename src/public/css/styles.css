@@ -1,0 +1,10 @@
+.body {
+  display: flex;
+  flex-direction: row; }
+
+.letters {
+  font-size: 30;
+  width: 100%; }
+
+h1 {
+  color: red; }
